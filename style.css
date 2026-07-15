@@ -1,0 +1,369 @@
+/*==============================*/
+/* RESETEO */
+/*==============================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f5f8fc;
+
+}
+
+/*==============================*/
+/* NAVBAR */
+/*==============================*/
+.navbar{
+
+    width:96%;
+
+    max-width:1600px;
+
+    margin:18px auto;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:16px 40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+/*================================*/
+/* HERO */
+/*================================*/
+
+#hero{
+
+    width:92%;
+
+    margin:auto;
+
+    min-height:820px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.hero-texto{
+
+    width:48%;
+
+}
+
+.saludo{
+
+    font-size:42px;
+
+    color:#23395d;
+
+    margin-bottom:10px;
+
+}
+
+.hero-texto h1{
+
+    font-size:110px;
+
+    line-height:1;
+
+    color:#10244d;
+
+    margin-bottom:20px;
+
+}
+
+.hero-texto h2{
+
+    color:#2d65d8;
+
+    font-size:44px;
+
+    margin-bottom:25px;
+
+}
+
+.descripcion{
+
+    font-size:28px;
+
+    color:#555;
+
+    line-height:1.7;
+
+    max-width:700px;
+
+}
+
+.hero-botones{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-top:45px;
+
+}
+
+.btn-azul{
+
+    background:#10244d;
+
+    color:white;
+
+    padding:18px 34px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-weight:600;
+
+}
+
+.btn-blanco{
+
+    border:2px solid #10244d;
+
+    color:#10244d;
+
+    padding:18px 34px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-weight:600;
+
+}
+
+.hero-redes{
+
+    display:flex;
+
+    gap:28px;
+
+    margin-top:45px;
+
+}
+
+.hero-redes a{
+
+    color:#10244d;
+
+    font-size:34px;
+
+}
+
+.hero-imagen{
+
+    width:48%;
+
+    display:flex;
+
+    justify-content:center;
+
+    position:relative;
+
+}
+
+.circulo{
+
+    width:620px;
+
+    height:620px;
+
+    border-radius:50%;
+
+    background:#eef3fb;
+
+    position:absolute;
+
+    top:70px;
+
+}
+
+.hero-imagen img{
+
+    width:700px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/*==============================*/
+/* LOGO */
+/*==============================*/
+
+.logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    line-height:1;
+
+}
+
+.logo h1{
+
+    font-family:'Allura',cursive;
+
+    font-size:42px;
+
+    font-weight:400;
+
+    color:#111;
+
+    margin:0;
+
+}
+
+
+
+.logo span{
+
+    margin-top:-2px;
+
+    margin-left:5px;
+
+    font-family:'Poppins',sans-serif;
+
+    font-size:11px;
+
+    letter-spacing:5px;
+
+    color:#666;
+
+    font-weight:600;
+
+}
+
+
+
+/*==============================*/
+/* MENU */
+/*==============================*/
+
+.menu{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:38px;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#444;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+    padding-bottom:6px;
+
+}
+
+.menu a:hover{
+
+    color:#0f2d68;
+
+}
+
+.activo{
+
+    color:#0f2d68 !important;
+
+    border-bottom:3px solid #0f2d68;
+
+}
+
+/*==============================*/
+/* BOTON */
+/*==============================*/
+
+.btn-cv{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:#0f2348;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 28px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-cv:hover{
+
+    background:#07132c;
+
+}
+
+/*==============================*/
+/* HERO */
+/*==============================*/
+
+#hero{
+
+    height:700px;
+
+}
